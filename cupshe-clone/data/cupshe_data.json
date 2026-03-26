@@ -1,0 +1,656 @@
+{
+  "title": "Cupshe® Official | 2026 Vacation Fashion, Swimwear & Resortwear",
+  "description": "Turn everyday into a getaway with Cupshe 2026. Shop our chic vacation fashion, supportive swimwear & breezy resortwear designed for every body. Feel confident & limitless.",
+  "navigation": [
+    {
+      "text": "New & Trending",
+      "href": "https://www.cupshe.com/collections/new-arrivals?icn=shopallnewarrivals&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "NEW ARRIVALS",
+      "href": "https://www.cupshe.com/collections/new-arrivals?icn=shopallnewarrivals&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "Shop All New Arrivals",
+      "href": "https://www.cupshe.com/collections/new-arrivals?icn=shopallnewarrivals&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Swim",
+      "href": "https://www.cupshe.com/collections/new-in-swim?icn=newswim&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Resortwear",
+      "href": "https://www.cupshe.com/collections/newarrivalvacation?icn=newresortwear&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Clothing",
+      "href": "https://www.cupshe.com/collections/new-in-beachwear?icn=newclothing&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Cover-Ups",
+      "href": "https://www.cupshe.com/collections/cover-up-6?icn=newcoverups&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "Back In Stock",
+      "href": "https://www.cupshe.com/collections/back-in-stock-now?icn=backinstock&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Bikinis",
+      "href": "https://www.cupshe.com/collections/new-in-bikini-sets?icn=newbikinis&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New One-Pieces",
+      "href": "https://www.cupshe.com/collections/new-in-one-piece?icn=newonepieces&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Dresses",
+      "href": "https://www.cupshe.com/collections/new-in-dresses?icn=newdresses&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Rompers & Jumpsuits",
+      "href": "https://www.cupshe.com/collections/newinrompers?icn=newrompersjumpsuits&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Tops",
+      "href": "https://www.cupshe.com/collections/newintopstees?icn=newtops&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Bottoms",
+      "href": "https://www.cupshe.com/collections/newbottomsvacaion?icn=newbottoms&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Shapewear",
+      "href": "https://www.cupshe.com/collections/newinshapewear?icn=newshapewear&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Intimates",
+      "href": "https://www.cupshe.com/collections/newinintimates?icn=newintimates&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Accessories, Shoes, &Bags",
+      "href": "https://www.cupshe.com/collections/newinaccessorieseveryday?icn=newaccessoriesshoesbags&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "TREND & OCCASION",
+      "href": "https://www.cupshe.com"
+    },
+    {
+      "text": "Boho Style",
+      "href": "https://www.cupshe.com/collections/boho-chic?icn=bohostyle&ici=newtrendingtrendoccasion"
+    },
+    {
+      "text": "Casual Style",
+      "href": "https://www.cupshe.com/collections/everyday-essentials?icn=everydaystyles&ici=newtrendingtrendoccasion"
+    },
+    {
+      "text": "Affiliates",
+      "href": "https://www.cupshe.com/cms?name=affiliates"
+    },
+    {
+      "text": "Partner Program",
+      "href": "https://www.cupshe.com/merchants"
+    },
+    {
+      "text": "Become a Member",
+      "href": "https://www.cupshe.com/pages/sunchasers"
+    },
+    {
+      "text": "Wholesale Inquiries",
+      "href": "https://www.cupshe.com/cms?name=wholesale1"
+    },
+    {
+      "text": "Ambassador Program",
+      "href": "https://www.cupshe.com/pages/ambassador-program"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://www.cupshe.com/pages/contact-us"
+    },
+    {
+      "text": "FAQs",
+      "href": "https://www.cupshe.com/pages/faq"
+    },
+    {
+      "text": "Shipping Info",
+      "href": "https://www.cupshe.com/campaigns/shipping-policy"
+    },
+    {
+      "text": "Order Tracker",
+      "href": "https://www.cupshe.com/pages/track-your-order"
+    },
+    {
+      "text": "Size Measurements",
+      "href": "https://www.cupshe.com/cms?name=size-fit#/"
+    },
+    {
+      "text": "Start a Return or Exchange",
+      "href": "https://www.cupshe.com/pages/start-a-return"
+    },
+    {
+      "text": "Return & Exchange Policy",
+      "href": "https://www.cupshe.com/campaigns/return-policy"
+    },
+    {
+      "text": "About Us",
+      "href": "https://www.cupshe.com/about-us"
+    },
+    {
+      "text": "Press",
+      "href": "https://www.cupshe.com/cms?name=press#/"
+    },
+    {
+      "text": "Our Supply Chain",
+      "href": "https://www.cupshe.com/cms?name=cupshe-supply-chain"
+    },
+    {
+      "text": "Customer Reviews",
+      "href": "https://www.cupshe.com/pages/customer-review"
+    },
+    {
+      "text": "E-Gift Card",
+      "href": "https://www.cupshe.com/gift-card/GC6000000031"
+    },
+    {
+      "text": "Exclusive WhatsApp Perks",
+      "href": "https://chat.whatsapp.com/BJyPLXSh34EC28LHvoxEbH"
+    }
+  ],
+  "banners": [
+    {
+      "src": "https://media.cupshe.com/static.cupshe.com/static/964b4803-d62e-4a7a-ab76-c04cca3219e5/us.png?speedsize=mxw_100",
+      "alt": "United States"
+    },
+    {
+      "src": "https://media.cupshe.com/feed-img.cupshe.com/material/website/39f34c95-4558-4ffa-b8f4-d56c102a325b_pc1%20%E6%8B%B7%E8%B4%9D.png?speedsize=mxw_200",
+      "alt": "FREE RETURNS & EXCHANGES"
+    },
+    {
+      "src": "https://media.cupshe.com/feed-img.cupshe.com/material/website/44b2f37b-217c-48b8-b97c-9e941db66c00_pc2.png?speedsize=mxw_200",
+      "alt": "FREE RETURNS"
+    },
+    {
+      "src": "https://media.cupshe.com/feed-img.cupshe.com/material/website/e4c54b3f-55fb-44b1-9f0b-a4ccf60c322a_pc1.png?speedsize=mxw_200",
+      "alt": "20% OFF 2PCS+"
+    }
+  ],
+  "categories": [],
+  "products": [
+    {
+      "image": "https://media.cupshe.com/static.cupshe.com/static/964b4803-d62e-4a7a-ab76-c04cca3219e5/us.png?speedsize=mxw_100",
+      "alt": "United States"
+    },
+    {
+      "image": "https://media.cupshe.com/feed-img.cupshe.com/material/website/39f34c95-4558-4ffa-b8f4-d56c102a325b_pc1%20%E6%8B%B7%E8%B4%9D.png?speedsize=mxw_200",
+      "alt": "FREE RETURNS & EXCHANGES"
+    },
+    {
+      "image": "https://media.cupshe.com/feed-img.cupshe.com/material/website/44b2f37b-217c-48b8-b97c-9e941db66c00_pc2.png?speedsize=mxw_200",
+      "alt": "FREE RETURNS"
+    },
+    {
+      "image": "https://media.cupshe.com/feed-img.cupshe.com/material/website/e4c54b3f-55fb-44b1-9f0b-a4ccf60c322a_pc1.png?speedsize=mxw_200",
+      "alt": "20% OFF 2PCS+"
+    }
+  ],
+  "footer": {},
+  "all_images": [
+    "https://media.cupshe.com/feed-img.cupshe.com/material/website/44b2f37b-217c-48b8-b97c-9e941db66c00_pc2.png?speedsize=mxw_200",
+    "https://media.cupshe.com/static.cupshe.com/static/964b4803-d62e-4a7a-ab76-c04cca3219e5/us.png?speedsize=mxw_100",
+    "https://media.cupshe.com/feed-img.cupshe.com/material/website/39f34c95-4558-4ffa-b8f4-d56c102a325b_pc1%20%E6%8B%B7%E8%B4%9D.png?speedsize=mxw_200",
+    "https://media.cupshe.com/feed-img.cupshe.com/material/website/e4c54b3f-55fb-44b1-9f0b-a4ccf60c322a_pc1.png?speedsize=mxw_200"
+  ],
+  "text_content": [
+    "Off-Duty in Orlando",
+    "Italy",
+    "WHAT'S HOT RIGHT NOW",
+    "PROGRAMS & PARTNERSHIPS",
+    "United Kingdom",
+    "Get an Exclusive Cupshe Beach Bag with Orders of $129+ >>",
+    "SUPPORT",
+    "Size & Fit Guide",
+    "BY PRICE",
+    "App-Exclusive Deals",
+    "Confirm Your Shipping Location",
+    "It looks like you are in",
+    "Enjoy Free Returns & Exchanges in the App",
+    "Easy & Free 30-Day Returns On Our App",
+    "FIT & FABRIC",
+    "Free Standard Shipping on Orders $69+",
+    "Text for 20% OFF 2PCS+",
+    "Welcome!",
+    "Subscribe & enjoy 15% off — no minimum required!",
+    "TREND & OCCASION",
+    "Copyright 2026 © Cupshe, All rights reserved",
+    "YOUR GETAWAY WARDROBE",
+    "SUBSCRIBED!",
+    "Europe",
+    "*One code per order. Each code valid once.",
+    "Mexico",
+    "COLLECTIONS",
+    "Poland",
+    "Canada",
+    "Shapewear Bottoms",
+    "United States",
+    "Hot List",
+    "It looks like you are in\n        For the best experience, switch to your local site?",
+    "THE CUPSHE WAY",
+    "Real-Time Order Tracking",
+    "USD ($)",
+    "Vacation Ready",
+    "15% Off or Free Shipping on Your 1st App Order",
+    "España",
+    "New In Swim",
+    "New One-Pieces",
+    "About Us",
+    "Casual Dresses",
+    "Subscribe to Get 15% OFF NO MIN",
+    "Sun Dresses",
+    "QUICK LINKS",
+    "Language",
+    "Evening & Cocktail Hours",
+    "Daily Casual",
+    "Ship to"
+  ],
+  "all_links": [
+    {
+      "text": "Subscribe & enjoy 15% off — no minimum required!",
+      "href": "https://www.cupshe.com/collections/new-subscribers-only?icn=signup&ici=topbanner_signup"
+    },
+    {
+      "text": "Get an Exclusive Cupshe Beach Bag with Orders of $129+ >>",
+      "href": "https://www.cupshe.com/collections/getafreetravelgift?icn=0318citygift&ici=topbar"
+    },
+    {
+      "text": "",
+      "href": "https://www.cupshe.com/"
+    },
+    {
+      "text": "Sign In/Sign Up",
+      "href": "https://www.cupshe.com/account"
+    },
+    {
+      "text": "Cupshe Club",
+      "href": "https://www.cupshe.com/club"
+    },
+    {
+      "text": "Track My Order",
+      "href": "https://www.cupshe.com/orderTrack"
+    },
+    {
+      "text": "Order History",
+      "href": "https://www.cupshe.com/center?type=orderHistory"
+    },
+    {
+      "text": "Sunchasers Center",
+      "href": "https://www.cupshe.com/sunchaserClub"
+    },
+    {
+      "text": "My  Messages",
+      "href": "https://www.cupshe.com/message"
+    },
+    {
+      "text": "Store Credit",
+      "href": "https://www.cupshe.com/center?type=myCredit"
+    },
+    {
+      "text": "",
+      "href": "https://www.cupshe.com/cart"
+    },
+    {
+      "text": "0",
+      "href": "https://www.cupshe.com/cart"
+    },
+    {
+      "text": "",
+      "href": "https://www.cupshe.com/"
+    },
+    {
+      "text": "New & Trending",
+      "href": "https://www.cupshe.com/collections/new-arrivals?icn=shopallnewarrivals&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "NEW ARRIVALS",
+      "href": "https://www.cupshe.com/collections/new-arrivals?icn=shopallnewarrivals&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "Shop All New Arrivals",
+      "href": "https://www.cupshe.com/collections/new-arrivals?icn=shopallnewarrivals&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Swim",
+      "href": "https://www.cupshe.com/collections/new-in-swim?icn=newswim&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Resortwear",
+      "href": "https://www.cupshe.com/collections/newarrivalvacation?icn=newresortwear&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Clothing",
+      "href": "https://www.cupshe.com/collections/new-in-beachwear?icn=newclothing&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Cover-Ups",
+      "href": "https://www.cupshe.com/collections/cover-up-6?icn=newcoverups&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "Back In Stock",
+      "href": "https://www.cupshe.com/collections/back-in-stock-now?icn=backinstock&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Bikinis",
+      "href": "https://www.cupshe.com/collections/new-in-bikini-sets?icn=newbikinis&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New One-Pieces",
+      "href": "https://www.cupshe.com/collections/new-in-one-piece?icn=newonepieces&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Dresses",
+      "href": "https://www.cupshe.com/collections/new-in-dresses?icn=newdresses&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Rompers & Jumpsuits",
+      "href": "https://www.cupshe.com/collections/newinrompers?icn=newrompersjumpsuits&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Tops",
+      "href": "https://www.cupshe.com/collections/newintopstees?icn=newtops&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Bottoms",
+      "href": "https://www.cupshe.com/collections/newbottomsvacaion?icn=newbottoms&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Shapewear",
+      "href": "https://www.cupshe.com/collections/newinshapewear?icn=newshapewear&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Intimates",
+      "href": "https://www.cupshe.com/collections/newinintimates?icn=newintimates&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "New Accessories, Shoes, &Bags",
+      "href": "https://www.cupshe.com/collections/newinaccessorieseveryday?icn=newaccessoriesshoesbags&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "Boho Style",
+      "href": "https://www.cupshe.com/collections/boho-chic?icn=bohostyle&ici=newtrendingtrendoccasion"
+    },
+    {
+      "text": "Casual Style",
+      "href": "https://www.cupshe.com/collections/everyday-essentials?icn=everydaystyles&ici=newtrendingtrendoccasion"
+    },
+    {
+      "text": "Destination Wedding",
+      "href": "https://www.cupshe.com/collections/destination-wedding?icn=wedding&ici=newtrendingtrendoccasion"
+    },
+    {
+      "text": "Resort Escape",
+      "href": "https://www.cupshe.com/collections/resort-wear?icn=swimresort&ici=newtrendingtrendoccasion"
+    },
+    {
+      "text": "Striped Clothing",
+      "href": "https://www.cupshe.com/collections/stripedclothing?icn=stripedclothing&ici=newtrendoccasion"
+    },
+    {
+      "text": "New In Swim",
+      "href": "https://www.cupshe.com/collections/new-in-swim?icn=beachday&ici=newtrendingphoto"
+    },
+    {
+      "text": "New In Resortwear",
+      "href": "https://www.cupshe.com/collections/new-in-beachwear?icn=newswim&ici=newtrendingnewarrivals"
+    },
+    {
+      "text": "Bikinis",
+      "href": "https://www.cupshe.com/collections/bikinis?icn=allbikinis&ici=navbarbikinis_allbikinis"
+    },
+    {
+      "text": "All Bikinis",
+      "href": "https://www.cupshe.com/collections/bikinis?icn=allbikinis&ici=navbarbikinis_allbikinis"
+    },
+    {
+      "text": "New Bikinis",
+      "href": "https://www.cupshe.com/collections/new-in-bikini-sets?icn=newbikinis&ici=navbarbikinis_newbikinis"
+    },
+    {
+      "text": "Best Sellers",
+      "href": "https://www.cupshe.com/collections/bikini-best-sellers?icn=bestsellersbikins&ici=navbarbikinis_bestsellersbikins"
+    },
+    {
+      "text": "Bikini Sets",
+      "href": "https://www.cupshe.com/collections/bikini-sets?icn=bikinisets&ici=navbarbikinis_bikinisets"
+    },
+    {
+      "text": "Tankini Sets",
+      "href": "https://www.cupshe.com/collections/tank-tops?icn=tankinisets&ici=navbarbikinis_tankinisets"
+    },
+    {
+      "text": "Mix & Match Sizing",
+      "href": "https://www.cupshe.com/collections/size-selection-upgrade?icn=mixmatch&ici=navbarbikinis_mixmatch"
+    },
+    {
+      "text": "Tank Tops",
+      "href": "https://www.cupshe.com/collections/tankmelater?icn=tanktops&ici=navbarbikinis_tanktops"
+    },
+    {
+      "text": "Kids Swim",
+      "href": "https://www.cupshe.com/collections/kids-bikini?icn=kidsbikinis&ici=navbarbikinis_kidsbikinis"
+    },
+    {
+      "text": "Men's Swim",
+      "href": "https://www.cupshe.com/collections/2025mensswimwearcollection?icn=menswimwear&ici=navbarbikinis_menswimwear"
+    },
+    {
+      "text": "Bandeau",
+      "href": "https://www.cupshe.com/collections/bandeau-1?icn=bandeau&ici=navbarbikinis_bandeau"
+    },
+    {
+      "text": "Bralette",
+      "href": "https://www.cupshe.com/collections/bralette?icn=bralette&ici=navbarbikinis_bralette"
+    },
+    {
+      "text": "DD+",
+      "href": "https://www.cupshe.com/collections/dd-plus-swimwear?icn=dd&ici=navbarbikinis_dd"
+    },
+    {
+      "text": "Halter",
+      "href": "https://www.cupshe.com/collections/halter?icn=halter&ici=navbarbikinis_halter"
+    },
+    {
+      "text": "Triangle",
+      "href": "https://www.cupshe.com/collections/triangle-bikini?icn=triangle&ici=navbarbikinis_triangle"
+    },
+    {
+      "text": "Underwire / Push-Up",
+      "href": "https://www.cupshe.com/collections/underwire-1?icn=underwirepushup&ici=navbarbikinis_underwirepushup"
+    },
+    {
+      "text": "Low-Rise",
+      "href": "https://www.cupshe.com/collections/low-rise-bikinis?icn=lowrise&ici=navbarbikinis_lowrise"
+    },
+    {
+      "text": "Mid-Rise",
+      "href": "https://www.cupshe.com/collections/mid-rise?icn=midrise&ici=navbarbikinis_midrise"
+    },
+    {
+      "text": "High-Waist",
+      "href": "https://www.cupshe.com/collections/high-waisted-fit?icn=highwaist&ici=navbarbikinis_highwaist"
+    },
+    {
+      "text": "Cheeky Bum Coverage",
+      "href": "https://www.cupshe.com/collections/cheeky-bottom-coverage?icn=cheekybumcoverage&ici=navbarbikinis_cheekybumcoverage"
+    },
+    {
+      "text": "Moderate Bum Coverage",
+      "href": "https://www.cupshe.com/collections/moderate-bottom-coverage?icn=moderatebumcoverage&ici=navbarbikinis_moderatebumcoverage"
+    },
+    {
+      "text": "Full Bum Coverage",
+      "href": "https://www.cupshe.com/collections/full-bottom-coverage?icn=fullbumcoverage&ici=navbarbikinis_fullbumcoverage"
+    },
+    {
+      "text": "Hot list",
+      "href": "https://www.cupshe.com/collections/bikini-best-sellers?icn=bestsellers&ici=navbarbikinis_bestsellers"
+    },
+    {
+      "text": "New Bikinis",
+      "href": "https://www.cupshe.com/collections/new-in-bikini-sets?icn=newbikinis&ici=navbarbikinis_newbikinis"
+    },
+    {
+      "text": "One-Pieces",
+      "href": "https://www.cupshe.com/collections/one-piece?icn=allonepieces&ici=navbaronepieces_allonepieces"
+    },
+    {
+      "text": "All One-Pieces",
+      "href": "https://www.cupshe.com/collections/one-piece?icn=allonepieces&ici=navbaronepieces_allonepieces"
+    },
+    {
+      "text": "New One-Pieces",
+      "href": "https://www.cupshe.com/collections/new-in-one-piece?icn=newonepieces&ici=navbaronepieces_newonepieces"
+    },
+    {
+      "text": "Best Sellers",
+      "href": "https://www.cupshe.com/collections/one-piece-best-sellers?icn=bestsellersgonepieces&ici=navbaronepieces_bestsellersgonepieces"
+    },
+    {
+      "text": "Monokinis",
+      "href": "https://www.cupshe.com/collections/monokini?icn=monokinis&ici=navbaronepieces_monokinis"
+    },
+    {
+      "text": "Kids Swim",
+      "href": "https://www.cupshe.com/collections/kids-one-piece?icn=kidsonepieces&ici=navbaronepieces_kidsonepieces"
+    },
+    {
+      "text": "Adjustable Straps",
+      "href": "https://www.cupshe.com/collections/adjustable-straps?icn=adjustablestraps&ici=navbaronepieces_adjustablestraps"
+    },
+    {
+      "text": "Cutout",
+      "href": "https://www.cupshe.com/collections/monokini-cut-out?icn=cutout&ici=navbaronepieces_cutout"
+    },
+    {
+      "text": "Flex Support",
+      "href": "https://www.cupshe.com/collections/flexsupport?icn=flexsupport&ici=navbaronepieces_flexsupport"
+    },
+    {
+      "text": "Halter / Lace-Up",
+      "href": "https://www.cupshe.com/collections/halter-lace-up-8?icn=halterlaceup&ici=navbaronepieces_halterlaceup"
+    },
+    {
+      "text": "Long Torso",
+      "href": "https://www.cupshe.com/collections/long-torso?icn=longtorso&ici=navbaronepieces_longtorso"
+    },
+    {
+      "text": "Plunge Neck / V-Neck",
+      "href": "https://www.cupshe.com/collections/plunge?icn=plungeneckvneck&ici=navbaronepieces_plungeneckvneck"
+    },
+    {
+      "text": "Tummy Control",
+      "href": "https://www.cupshe.com/collections/tummy-control-one-pieces?icn=tummycontrol&ici=navbaronepieces_tummycontrol"
+    },
+    {
+      "text": "Black & White",
+      "href": "https://www.cupshe.com/collections/blackwhiteswim?icn=blackwhite&ici=navbaronepieces_blackwhite"
+    },
+    {
+      "text": "Boho Style",
+      "href": "https://www.cupshe.com/collections/best-seller-boho-one-piece?icn=boho&ici=navbaronepieces_boho"
+    },
+    {
+      "text": "Prints & Florals",
+      "href": "https://www.cupshe.com/collections/print-trend-one-piece?icn=prints&ici=navbaronepieces_prints"
+    },
+    {
+      "text": "Solid Colors",
+      "href": "https://www.cupshe.com/collections/solid-trend-one-piece?icn=solidcolors&ici=navbaronepieces_solidcolors"
+    },
+    {
+      "text": "Hot List",
+      "href": "https://www.cupshe.com/collections/one-piece-best-sellers?icn=bestsellers&ici=navbaronepieces_bestsellers"
+    },
+    {
+      "text": "New One-Pieces",
+      "href": "https://www.cupshe.com/collections/new-in-one-piece?icn=newonepieces&ici=navbaronepieces_newonepieces"
+    },
+    {
+      "text": "Resortwear",
+      "href": "https://www.cupshe.com/collections/allbestsellersvacation?icn=allclothing&ici=resortwearcategory"
+    },
+    {
+      "text": "All Clothing",
+      "href": "https://www.cupshe.com/collections/allbestsellersvacation?icn=allclothing&ici=resortwearcategory"
+    },
+    {
+      "text": "New Clothing",
+      "href": "https://www.cupshe.com/collections/newinvacation?icn=newclothing&ici=resortwearcategory"
+    },
+    {
+      "text": "Best Sellers",
+      "href": "https://www.cupshe.com/collections/allbestsellersbeachwear?icn=bestsellers&ici=resortwearcategory"
+    },
+    {
+      "text": "Dresses",
+      "href": "https://www.cupshe.com/collections/vacationdress?icn=dresses&ici=resortwearcategory"
+    },
+    {
+      "text": "Rompers & Jumpsuits",
+      "href": "https://www.cupshe.com/collections/jumpsuitsrompersvacation?icn=rompersjumpsuits&ici=resortwearcategory"
+    },
+    {
+      "text": "Cover-Ups",
+      "href": "https://www.cupshe.com/collections/cover-up-1?icn=coverups&ici=resortwearcategory"
+    },
+    {
+      "text": "Tops",
+      "href": "https://www.cupshe.com/collections/topsvacation?icn=tops&ici=resortwearcategory"
+    },
+    {
+      "text": "Bottoms",
+      "href": "https://www.cupshe.com/collections/allbottomsbeachwear?icn=bottoms&ici=resortwearcategory"
+    },
+    {
+      "text": "Denim",
+      "href": "https://www.cupshe.com/collections/denimclothingeveryday?icn=denim&ici=resortwearcategory"
+    },
+    {
+      "text": "Accessories, Shoes, & Bags",
+      "href": "https://www.cupshe.com/collections/all-accessories"
+    },
+    {
+      "text": "Floral Dresses",
+      "href": "https://www.cupshe.com/collections/floralprintdresseseveryday?icn=floraldreams&ici=resortweartrendoccasion"
+    },
+    {
+      "text": "Cover-Up Tops & Bottoms",
+      "href": "https://www.cupshe.com/collections/cover-uptopsbottoms?icn=coveruptops&ici=coverupscategory"
+    },
+    {
+      "text": "Vacation Knit Comfort",
+      "href": "https://www.cupshe.com/collections/knitclothingvacation?icn=vacationknitcomfort&ici=resortweartrendoccasion"
+    },
+    {
+      "text": "Boho Escape",
+      "href": "https://www.cupshe.com/collections/bohemian-clothing?icn=bohoescape&ici=resortweartrendoccasion"
+    },
+    {
+      "text": "Lace Romance",
+      "href": "https://www.cupshe.com/collections/laceclothingeveryday?icn=laceromance&ici=resortweartrendoccasion"
+    },
+    {
+      "text": "Cotton Ease",
+      "href": "https://www.cupshe.com/collections/cottonclothingvacation?icn=cottonease&ici=resortweartrendoccasion"
+    },
+    {
+      "text": "Solid Statement",
+      "href": "https://www.cupshe.com/collections/solid-colors?icn=solidstatement&ici=resortweartrendoccasion"
+    },
+    {
+      "text": "Vacation Ready",
+      "href": "https://www.cupshe.com/collections/allbestsellersvacation?icn=vacationready&ici=resortweartrendoccasion"
+    },
+    {
+      "text": "Beach Days",
+      "href": "https://www.cupshe.com/collections/passionatecoast?icn=beachdays&ici=resortweartrendoccasion"
+    }
+  ]
+}

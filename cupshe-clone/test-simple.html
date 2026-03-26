@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Switcher Test</title>
+  <link rel="stylesheet" href="css/language-switcher.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .test-section {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .test-item {
+      padding: 10px;
+      margin: 10px 0;
+      background: #f9f9f9;
+      border-left: 4px solid #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌐 Language Switcher Test</h1>
+  
+  <div class="test-section">
+    <h2>1. Language Switcher</h2>
+    <div class="language-switcher" id="header-language-switcher">
+      <div class="lang-switch-btn">
+        <svg class="lang-icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+          <path d="M12.87 1.07c-.215-.083-.447-.07-.66.037l-.42.21-.42-.21c-.213-.107-.445-.12-.66-.037C8.04 1.74 6.03 2.93 4.39 4.57 1.5 7.46 0 11.16 0 15.04c0 .55.45 1 1 1s1-.45 1-1c0-3.35 1.3-6.54 3.66-8.9 1.32-1.32 2.89-2.33 4.59-3.02V12c0 .55.45 1 1 1s1-.45 1-1V3.12c1.7.69 3.27 1.7 4.59 3.02 2.36 2.36 3.66 5.55 3.66 8.9 0 .55.45 1 1 1s1-.45 1-1c0-3.88-1.5-7.58-4.39-10.47-1.64-1.64-3.65-2.83-5.35-3.5z"/>
+          <circle cx="12" cy="15" r="2"/>
+        </svg>
+        <span class="lang-display">EN</span>
+        <svg width="12" height="12" viewBox="0 0 16 16">
+          <path d="M13.8277 6.00298C13.9526 6.12795 13.9526 6.33102 13.8277 6.45597L8.2288 12.0548C8.10385 12.1796 7.90143 12.179 7.7765 12.0541L2.17144 6.44906C2.04652 6.32415 2.04594 6.12174 2.17075 5.99676L2.62374 5.54377C2.74873 5.41909 2.95117 5.41959 3.07604 5.54446L8.00231 10.4707L12.9224 5.55068C13.0473 5.42571 13.2504 5.42571 13.3754 5.55068L13.8277 6.00298Z" fill="currentColor"/>
+        </svg>
+      </div>
+      <div class="lang-dropdown">
+        <div class="lang-option" data-lang="zh">
+          <span class="lang-label">中文</span>
+        </div>
+        <div class="lang-option" data-lang="en">
+          <span class="lang-label">English</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="test-section">
+    <h2>2. Translation Test</h2>
+    
+    <div class="test-item">
+      <strong data-i18n="nav_new_trending">New & Trending</strong>
+      <span style="color: #666; font-size: 12px;">Key: nav_new_trending</span>
+    </div>
+    
+    <div class="test-item">
+      <strong data-i18n="nav_crystal_bracelets">Crystal Bracelets</strong>
+      <span style="color: #666; font-size: 12px;">Key: nav_crystal_bracelets</span>
+    </div>
+    
+    <div class="test-item">
+      <strong data-i18n="policy_free_returns">FREE RETURNS & EXCHANGES</strong>
+      <span style="color: #666; font-size: 12px;">Key: policy_free_returns</span>
+    </div>
+    
+    <div class="test-item">
+      <strong data-i18n="brand_title">THE WAY OF BRACELETS</strong>
+      <span style="color: #666; font-size: 12px;">Key: brand_title</span>
+    </div>
+    
+    <div class="test-item">
+      <strong data-i18n="hot_products_title">WHAT'S HOT RIGHT NOW</strong>
+      <span style="color: #666; font-size: 12px;">Key: hot_products_title</span>
+    </div>
+    
+    <div class="test-item">
+      <strong data-i18n="app_exclusive">APP EXCLUSIVE</strong>
+      <span style="color: #666; font-size: 12px;">Key: app_exclusive</span>
+    </div>
+  </div>
+  
+  <div class="test-section">
+    <h2>3. Current Status</h2>
+    <p>Current Language: <strong id="current-lang">en</strong></p>
+    <p>localStorage: <strong id="storage-lang">not set</strong></p>
+    <p>Elements with data-i18n: <strong id="element-count">0</strong></p>
+  </div>
+  
+  <div class="test-section">
+    <h2>4. Console Logs</h2>
+    <div id="console-log" style="background: #1e1e1e; color: #0f0; padding: 15px; border-radius: 4px; font-family: monospace; font-size: 12px; max-height: 300px; overflow-y: auto;">
+      <div>Waiting for logs...</div>
+    </div>
+  </div>
+  
+  <script src="js/language-switcher.js"></script>
+  <script>
+    // Custom log function
+    function log(message, type = 'info') {
+      const consoleLog = document.getElementById('console-log');
+      const logEntry = document.createElement('div');
+      logEntry.style.color = type === 'error' ? '#f44336' : type === 'success' ? '#4CAF50' : '#0f0';
+      logEntry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+      consoleLog.appendChild(logEntry);
+      consoleLog.scrollTop = consoleLog.scrollHeight;
+    }
+    
+    // Override console.log
+    const originalLog = console.log;
+    console.log = function(...args) {
+      originalLog.apply(console, args);
+      log(args.join(' '));
+    };
+    
+    console.error = function(...args) {
+      log(args.join(' '), 'error');
+    };
+    
+    // Listen for language change event
+    window.addEventListener('languageChanged', (e) => {
+      log(`Language changed to: ${e.detail.lang}`, 'success');
+      updateStatus();
+    });
+    
+    // Update status display
+    function updateStatus() {
+      const currentLang = window.LanguageSwitcher ? window.LanguageSwitcher.getCurrent() : 'unknown';
+      const storageLang = localStorage.getItem('preferredLanguage') || 'not set';
+      const elementCount = document.querySelectorAll('[data-i18n]').length;
+      
+      document.getElementById('current-lang').textContent = currentLang;
+      document.getElementById('storage-lang').textContent = storageLang;
+      document.getElementById('element-count').textContent = elementCount;
+    }
+    
+    // Initialize
+    log('Page loaded');
+    log('Language switcher initialized');
+    updateStatus();
+    
+    // Test translation function
+    setTimeout(() => {
+      log('Testing translation function...');
+      const testElement = document.querySelector('[data-i18n="nav_new_trending"]');
+      if (testElement) {
+        log(`Test element content: "${testElement.textContent}"`);
+        log(`data-i18n attribute: "${testElement.getAttribute('data-i18n')}"`);
+      }
+      
+      const currentLang = window.LanguageSwitcher.getCurrent();
+      const translation = window.LanguageSwitcher.translate('nav_new_trending', 'zh');
+      log(`Chinese translation: "${translation}"`);
+    }, 1000);
+  </script>
+</body>
+</html>

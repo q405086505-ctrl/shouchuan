@@ -1,0 +1,856 @@
+/* ========================================
+   CUPSHE CLONE - Responsive Styles
+   手机端等比例缩放 - 保持电脑端布局
+   ======================================== */
+
+/* Large Desktop (1440px and up) */
+@media (min-width: 1440px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+/* Desktop (1200px - 1439px) */
+@media (max-width: 1439px) {
+  :root {
+    --font-size-4xl: 36px;
+    --font-size-3xl: 28px;
+  }
+}
+
+/* Small Desktop / Large Tablet (992px - 1199px) */
+@media (max-width: 1199px) {
+  :root {
+    --font-size-4xl: 32px;
+    --font-size-3xl: 26px;
+    --font-size-2xl: 22px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .channel-images-2 {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 8px;
+  }
+}
+
+/* Tablet (768px - 991px) */
+@media (max-width: 991px) {
+  :root {
+    --font-size-4xl: 28px;
+    --font-size-3xl: 24px;
+    --font-size-2xl: 20px;
+  }
+
+  .pc-header__inner {
+    height: 56px;
+  }
+
+  .pc-header__logo svg {
+    width: 100px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  .channel-images-2 {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 6px;
+  }
+
+  .home-cupsheway--content {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .app-banner {
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 32px;
+  }
+
+  .home-ins--gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Large Mobile (576px - 767px) */
+@media (max-width: 767px) {
+  :root {
+    --font-size-4xl: 22px;
+    --font-size-3xl: 20px;
+    --font-size-2xl: 18px;
+    --font-size-xl: 15px;
+  }
+
+  /* Header - 保持结构，缩小尺寸 */
+  .pc-topbar {
+    padding: 0 12px;
+    height: 32px;
+  }
+  
+  .pc-topbar__list li a strong {
+    font-size: 10px;
+  }
+  
+  .pc-topbar__switch {
+    display: none;
+  }
+
+  .pc-header__inner {
+    height: 48px;
+    padding: 0 12px;
+  }
+
+  .pc-header__logo svg {
+    width: 75px;
+  }
+
+  .pc-header__actions {
+    gap: 10px;
+  }
+
+  .pc-header__actions li svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Navigation - 隐藏导航 */
+  .nav-wrap {
+    display: none;
+  }
+
+  /* Video Banner - 保持比例 41.67% */
+  .home-banner--swiper-item a {
+    padding-bottom: 41.66666666666667% !important;
+  }
+  
+  .home-banner div.video-js {
+    padding-bottom: 41.66666666666667% !important;
+  }
+
+  /* Top Banner - Policy - 保持结构 */
+  .floor-topBanner {
+    padding: 12px 0;
+  }
+  
+  .topBanner-content {
+    gap: 16px;
+    padding: 0 12px;
+  }
+
+  .topBanner-item {
+    gap: 8px;
+  }
+
+  .topBanner-item i {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+  }
+  
+  .topBanner-item-title {
+    font-size: 10px;
+  }
+  
+  .topBanner-item-desc {
+    font-size: 9px;
+  }
+
+  .topBanner-separator {
+    height: 28px;
+  }
+
+  /* Channel Images - 保持 2:1:1:1 布局 */
+  .channel {
+    padding: 0 8px;
+  }
+  
+  .channel h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    padding: 0 4px;
+  }
+  
+  .channel-images-2 {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 4px;
+  }
+
+  .channel-images-2 .channel-images-item:nth-child(1) {
+    grid-row: span 2;
+  }
+  
+  .channel-images-item > div {
+    padding-bottom: 100% !important;
+  }
+
+  /* Sub Banner - 保持并排布局 */
+  .subbanner-images {
+    display: flex;
+  }
+  
+  .subbanner-style-1 .subbanner-images-item {
+    width: 100%;
+  }
+  
+  .subbanner-style-2 .subbanner-images-item {
+    width: 50%;
+  }
+  
+  .subbanner-style-1 .subbanner-images-item > div {
+    padding-bottom: 37.5% !important;
+  }
+  
+  .subbanner-style-2 .subbanner-images-item > div {
+    padding-bottom: 89.58333333333334% !important;
+  }
+
+  /* Products Grid - 保持4列 */
+  .floor-collections {
+    padding: 24px 0;
+  }
+  
+  .floor-collections header {
+    margin-bottom: 16px;
+  }
+  
+  .floor-collections header h2 {
+    font-size: 18px;
+  }
+  
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 0 8px !important;
+  }
+  
+  .product-item .product-image {
+    padding-bottom: 150% !important;
+  }
+  
+  .product-title {
+    font-size: 10px;
+    margin: 6px 0 2px;
+  }
+  
+  .product-price {
+    font-size: 10px;
+  }
+  
+  .product-price span {
+    font-size: 10px !important;
+  }
+
+  /* THE CUPSHE WAY - 保持两列 */
+  .home-cupsheway {
+    padding: 0 12px;
+  }
+  
+  .home-cupsheway--sub-title {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .home-cupsheway--title {
+    margin-bottom: 24px;
+  }
+  
+  .home-cupsheway--title span {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  
+  .home-cupsheway--title-line img {
+    width: 100px;
+  }
+  
+  .home-cupsheway--content {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 0;
+  }
+  
+  .home-cupsheway--content-right-title {
+    font-size: 12px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+  
+  .home-cupsheway--content-right-text-title {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .home-cupsheway--content-right-text-item {
+    font-size: 11px;
+    padding: 6px 0;
+  }
+  
+  .home-cupsheway--content-right-text-more {
+    font-size: 10px;
+    margin-top: 12px;
+  }
+
+  /* Instagram Feed - 保持6列 */
+  .home-ins {
+    padding: 24px 0;
+  }
+  
+  .home-ins--content {
+    padding: 0 12px;
+    margin-bottom: 16px;
+  }
+  
+  .home-ins--content-title {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .home-ins--content-text {
+    font-size: 11px;
+  }
+  
+  .home-ins--gallery {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 3px;
+    padding: 0 6px;
+  }
+
+  /* App Download - 保持三列 */
+  .floor-app-download {
+    padding: 24px 12px;
+  }
+
+  .app-banner {
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 16px;
+    padding: 0;
+  }
+  
+  .phone-screen img {
+    max-width: 100%;
+  }
+  
+  .tagline {
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+
+  .main-offer {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .benefits-list li {
+    font-size: 10px;
+    padding: 4px 0;
+    gap: 6px;
+  }
+  
+  .benefits-list li i {
+    width: 12px;
+    height: 12px;
+  }
+
+  .download-header {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .download-title {
+    font-size: 8px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+  
+  .divider {
+    width: 20px;
+  }
+
+  .qr-code img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .qr-and-stores {
+    gap: 6px;
+  }
+
+  .store-badge img {
+    width: 70px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px 12px 12px;
+  }
+  
+  .footer__top {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+  
+  .footer__col h4 {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .footer__col ul li {
+    margin-bottom: 4px;
+  }
+  
+  .footer__col ul a {
+    font-size: 9px;
+  }
+  
+  .footer__social {
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .footer__social-link {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .footer__social-link svg {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .footer__bottom {
+    margin-top: 16px;
+    padding-top: 12px;
+  }
+  
+  .footer__copyright p {
+    font-size: 9px;
+  }
+
+  /* Spacing */
+  .spacing {
+    height: 20px !important;
+  }
+
+  /* Back to Top */
+  .back-to-top {
+    width: 36px;
+    height: 36px;
+    bottom: 12px;
+    right: 12px;
+  }
+  
+  .back-to-top svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Small Mobile (up to 575px) */
+@media (max-width: 575px) {
+  :root {
+    --font-size-4xl: 18px;
+    --font-size-3xl: 16px;
+    --font-size-2xl: 14px;
+  }
+
+  /* Header */
+  .pc-topbar {
+    height: 28px;
+  }
+  
+  .pc-topbar__list li a strong {
+    font-size: 9px;
+  }
+
+  .pc-header__inner {
+    height: 44px;
+    padding: 0 8px;
+  }
+
+  .pc-header__logo svg {
+    width: 65px;
+  }
+
+  .pc-header__actions {
+    gap: 8px;
+  }
+  
+  .pc-header__actions li svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Video Banner - 保持比例 */
+  .home-banner--swiper-item a {
+    padding-bottom: 41.66666666666667% !important;
+  }
+  
+  .home-banner div.video-js {
+    padding-bottom: 41.66666666666667% !important;
+  }
+
+  /* Top Banner */
+  .floor-topBanner {
+    padding: 10px 0;
+  }
+  
+  .topBanner-content {
+    gap: 12px;
+    padding: 0 8px;
+  }
+
+  .topBanner-item i {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+  }
+  
+  .topBanner-item-title {
+    font-size: 9px;
+  }
+  
+  .topBanner-item-desc {
+    font-size: 8px;
+  }
+
+  .topBanner-separator {
+    height: 24px;
+  }
+
+  /* Channel - 保持 2:1:1:1 */
+  .channel {
+    padding: 0 6px;
+  }
+  
+  .channel h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0 2px;
+  }
+  
+  .channel-images-2 {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3px;
+  }
+  
+  .channel-images-item > div {
+    padding-bottom: 100% !important;
+  }
+
+  /* Sub Banner - 保持布局 */
+  .subbanner-style-1 .subbanner-images-item > div {
+    padding-bottom: 37.5% !important;
+  }
+  
+  .subbanner-style-2 .subbanner-images-item > div {
+    padding-bottom: 89.58333333333334% !important;
+  }
+
+  /* Products - 保持4列 */
+  .floor-collections {
+    padding: 20px 0;
+  }
+  
+  .floor-collections header h2 {
+    font-size: 16px;
+  }
+  
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    padding: 0 6px !important;
+  }
+  
+  .product-item .product-image {
+    padding-bottom: 150% !important;
+  }
+  
+  .product-title {
+    font-size: 9px;
+    margin: 4px 0 2px;
+  }
+  
+  .product-price {
+    font-size: 9px;
+  }
+  
+  .product-price span {
+    font-size: 9px !important;
+  }
+
+  /* THE CUPSHE WAY - 保持两列 */
+  .home-cupsheway {
+    padding: 0 8px;
+  }
+  
+  .home-cupsheway--sub-title {
+    font-size: 9px;
+  }
+  
+  .home-cupsheway--title span {
+    font-size: 16px;
+  }
+  
+  .home-cupsheway--title-line img {
+    width: 80px;
+  }
+  
+  .home-cupsheway--content {
+    gap: 12px;
+  }
+  
+  .home-cupsheway--content-right-title {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .home-cupsheway--content-right-text-title {
+    font-size: 9px;
+    margin-bottom: 6px;
+  }
+  
+  .home-cupsheway--content-right-text-item {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+
+  /* Instagram - 保持6列 */
+  .home-ins {
+    padding: 20px 0;
+  }
+  
+  .home-ins--content-title {
+    font-size: 16px;
+  }
+  
+  .home-ins--content-text {
+    font-size: 10px;
+  }
+  
+  .home-ins--gallery {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+    padding: 0 4px;
+  }
+
+  /* App Download - 保持三列 */
+  .floor-app-download {
+    padding: 20px 8px;
+  }
+
+  .app-banner {
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 12px;
+  }
+  
+  .phone-screen img {
+    max-width: 100%;
+  }
+  
+  .tagline {
+    font-size: 8px;
+    margin-bottom: 4px;
+  }
+
+  .main-offer {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .benefits-list li {
+    font-size: 9px;
+    padding: 3px 0;
+    gap: 4px;
+  }
+  
+  .benefits-list li i {
+    width: 10px;
+    height: 10px;
+  }
+
+  .download-header {
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .download-title {
+    font-size: 7px;
+  }
+  
+  .divider {
+    width: 15px;
+  }
+
+  .qr-code img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .qr-and-stores {
+    gap: 4px;
+  }
+
+  .store-badge img {
+    width: 50px;
+  }
+
+  /* Footer - 保持4列 */
+  .footer {
+    padding: 16px 8px 8px;
+  }
+  
+  .footer__top {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  
+  .footer__col h4 {
+    font-size: 9px;
+    margin-bottom: 6px;
+  }
+  
+  .footer__col ul li {
+    margin-bottom: 3px;
+  }
+  
+  .footer__col ul a {
+    font-size: 8px;
+  }
+  
+  .footer__social {
+    gap: 6px;
+  }
+  
+  .footer__social-link {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer__social-link svg {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .footer__bottom {
+    margin-top: 12px;
+    padding-top: 10px;
+  }
+  
+  .footer__copyright p {
+    font-size: 8px;
+  }
+
+  /* Spacing */
+  .spacing {
+    height: 16px !important;
+  }
+
+  /* Back to Top */
+  .back-to-top {
+    width: 32px;
+    height: 32px;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .back-to-top svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Extra Small Mobile (up to 374px) */
+@media (max-width: 374px) {
+  .pc-header__logo svg {
+    width: 55px;
+  }
+
+  .pc-header__actions {
+    gap: 6px;
+  }
+
+  .channel h2 {
+    font-size: 14px;
+  }
+  
+  .products-grid {
+    gap: 4px;
+  }
+  
+  .product-title {
+    font-size: 8px;
+  }
+  
+  .product-price {
+    font-size: 8px;
+  }
+
+  .home-cupsheway--title span {
+    font-size: 14px;
+  }
+  
+  .main-offer {
+    font-size: 10px;
+  }
+  
+  .benefits-list li {
+    font-size: 8px;
+  }
+}
+
+/* Landscape Orientation on Mobile */
+@media (max-width: 767px) and (orientation: landscape) {
+  .home-banner--swiper-item a {
+    padding-bottom: 41.66666666666667% !important;
+  }
+}
+
+/* High Resolution Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Touch Devices */
+@media (hover: none) and (pointer: coarse) {
+  .btn {
+    min-height: 44px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .header,
+  .footer,
+  .back-to-top {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

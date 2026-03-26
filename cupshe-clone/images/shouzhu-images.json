@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "name": "佛珠手串",
+      "name_en": "Buddhist Beads",
+      "prompt": "Professional product photography of Buddhist prayer beads bracelet, wooden beads with natural grain, warm lighting, minimalist background, high detail, 8k resolution"
+    },
+    {
+      "name": "水晶手链",
+      "name_en": "Crystal Bracelets",
+      "prompt": "Beautiful crystal bracelet photography, transparent gemstones, rainbow reflections, elegant display, soft lighting, luxury jewelry photography style"
+    },
+    {
+      "name": "木质手串",
+      "name_en": "Wooden Beads",
+      "prompt": "Handcrafted wooden bead bracelet, natural wood texture, earthy tones, zen aesthetic, professional product shot, neutral background"
+    },
+    {
+      "name": "玛瑙手串",
+      "name_en": "Agate Bracelets",
+      "prompt": "Natural agate stone bracelet, rich colors and patterns, polished surface, luxury jewelry photography, dramatic lighting"
+    },
+    {
+      "name": "菩提手串",
+      "name_en": "Bodhi Beads",
+      "prompt": "Traditional bodhi seed bracelet, textured surface, spiritual aesthetic, warm natural lighting, meditation theme"
+    },
+    {
+      "name": "翡翠手镯",
+      "name_en": "Jade Bangles",
+      "prompt": "Premium jade bangle bracelet, green translucent stone, elegant Chinese jewelry, soft studio lighting, luxury display"
+    },
+    {
+      "name": "蜜蜡手串",
+      "name_en": "Amber Bracelets",
+      "prompt": "Natural amber bracelet, honey golden color, warm glow, vintage jewelry photography, soft focus background"
+    }
+  ],
+  "banners": [
+    {
+      "name": "家庭传承",
+      "prompt": "Chinese family heritage concept, multiple generations wearing traditional bracelets, warm emotional moment, soft natural lighting, lifestyle photography"
+    },
+    {
+      "name": "旅行风格",
+      "prompt": "Travel lifestyle with traditional jewelry, bracelet on wrist with scenic background, adventure and culture, golden hour lighting"
+    },
+    {
+      "name": "实用美学",
+      "prompt": "Minimalist jewelry display, bracelet on clean surface, practical elegance, modern Chinese aesthetic, professional product photography"
+    },
+    {
+      "name": "度假模式",
+      "prompt": "Relaxed vacation vibe with traditional bracelet, beach or temple setting, peaceful atmosphere, natural sunlight"
+    },
+    {
+      "name": "海岸风情",
+      "prompt": "Coastal lifestyle jewelry photography, bracelet with ocean elements, serene blue tones, calm and peaceful mood"
+    },
+    {
+      "name": "城市日常",
+      "prompt": "Urban lifestyle with traditional jewelry, modern Chinese woman wearing bracelet in city, contemporary meets tradition, street style photography"
+    }
+  ],
+  "brand": {
+    "values": "Chinese traditional craftsmanship, modern design aesthetic, quality materials, spiritual wellness",
+    "prompt": "Chinese traditional craft studio, artisan working on handmade bracelets, warm workshop lighting, heritage and craftsmanship theme"
+  },
+  "products": [
+    "小叶紫檀佛珠手串",
+    "天然水晶手链女",
+    "老山檀香木手串",
+    "南红玛瑙手镯",
+    "星月菩提手串",
+    "翡翠玉手镯",
+    "蜜蜡鸡油黄手串",
+    "多宝手串合集"
+  ]
+}

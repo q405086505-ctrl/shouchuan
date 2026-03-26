@@ -1,0 +1,79 @@
+# robots.txt for SHOUCHUAN - Bracelet E-commerce Website
+# https://www.shouchuan.com/robots.txt
+
+# 允许所有搜索引擎爬虫 / Allow all search engine crawlers
+User-agent: *
+
+# 允许爬取的目录 / Allow crawling directories
+Allow: /
+Allow: /index.html
+Allow: /products/
+Allow: /categories/
+Allow: /about/
+Allow: /contact/
+
+# 禁止爬取的目录 / Disallow crawling directories
+Disallow: /admin/
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /cart/
+Disallow: /search?
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /test-*.html
+Disallow: /js/
+Disallow: /css/
+Disallow: /data/
+
+# 站点地图位置 / Sitemap location
+Sitemap: https://www.shouchuan.com/sitemap.xml
+
+# 特定搜索引擎设置 / Specific search engine settings
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Crawl-delay: 1
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Crawl-delay: 1
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Crawl-delay: 1
+
+# 禁止恶意爬虫 / Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# 爬取延迟 / Crawl delay
+Crawl-delay: 1
+
+# 访问主机 / Host
+Host: https://www.shouchuan.com

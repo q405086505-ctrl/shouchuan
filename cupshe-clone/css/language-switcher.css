@@ -1,0 +1,195 @@
+/**
+ * 语言切换器样式 / Language Switcher Styles
+ */
+
+/* 语言切换按钮 / Language Switch Button */
+.language-switcher {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  color: #04040C;
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.language-switcher:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.language-switcher.active {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.lang-switch-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.lang-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.lang-display {
+  font-size: 13px;
+  min-width: 45px;
+  text-align: center;
+}
+
+/* 语言下拉菜单 / Language Dropdown */
+.lang-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  min-width: 140px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.language-switcher:hover .lang-dropdown,
+.language-switcher.active .lang-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  color: #04040C;
+  font-size: 14px;
+}
+
+.lang-option:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.lang-option.active {
+  background: rgba(0, 0, 0, 0.08);
+  font-weight: 600;
+}
+
+.lang-flag {
+  width: 20px;
+  height: 15px;
+  border-radius: 2px;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lang-label {
+  flex: 1;
+}
+
+/* 移动端样式 / Mobile Styles */
+@media (max-width: 768px) {
+  .language-switcher {
+    padding: 10px 14px;
+  }
+  
+  .lang-dropdown {
+    right: -10px;
+    min-width: 160px;
+  }
+  
+  .lang-option {
+    padding: 14px 18px;
+  }
+}
+
+/* 深色模式支持 / Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .language-switcher:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .language-switcher.active {
+    background: rgba(255, 255, 255, 0.15);
+  }
+  
+  .lang-dropdown {
+    background: #1a1a1a;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .lang-option {
+    color: #fff;
+  }
+  
+  .lang-option:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .lang-option.active {
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+
+/* 动画效果 / Animation Effects */
+@keyframes langSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lang-dropdown {
+  animation: langSlideIn 0.3s ease forwards;
+}
+
+/* 语言切换提示 / Language Switch Toast */
+.lang-toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 9999;
+  backdrop-filter: blur(10px);
+}
+
+.lang-toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .lang-toast {
+    left: 20px;
+    right: 20px;
+    transform: translateX(0) translateY(100px);
+  }
+  
+  .lang-toast.show {
+    transform: translateX(0) translateY(0);
+  }
+}

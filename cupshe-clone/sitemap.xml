@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- 首页 / Homepage -->
+  <url>
+    <loc>https://www.shouchuan.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.shouchuan.com/images/og-image.jpg</image:loc>
+      <image:title>SHOUCHUAN - Natural Crystal Bracelets & Buddhist Beads</image:title>
+    </image:image>
+  </url>
+  
+  <!-- 新品热卖 / New & Trending -->
+  <url>
+    <loc>https://www.shouchuan.com/category/new-arrivals</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/category/new-arrivals?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/category/new-arrivals?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 水晶手串 / Crystal Bracelets -->
+  <url>
+    <loc>https://www.shouchuan.com/category/crystal-bracelets</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/category/crystal-bracelets?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/category/crystal-bracelets?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 佛珠念珠 / Buddhist Beads -->
+  <url>
+    <loc>https://www.shouchuan.com/category/buddhist-beads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/category/buddhist-beads?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/category/buddhist-beads?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 玛瑙系列 / Agate Series -->
+  <url>
+    <loc>https://www.shouchuan.com/category/agate-series</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/category/agate-series?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/category/agate-series?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 檀木手串 / Sandalwood -->
+  <url>
+    <loc>https://www.shouchuan.com/category/sandalwood</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/category/sandalwood?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/category/sandalwood?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 菩提子 / Bodhi Seeds -->
+  <url>
+    <loc>https://www.shouchuan.com/category/bodhi-seeds</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/category/bodhi-seeds?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/category/bodhi-seeds?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 配饰配件 / Accessories -->
+  <url>
+    <loc>https://www.shouchuan.com/category/accessories</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/category/accessories?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/category/accessories?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 特惠专区 / Sale -->
+  <url>
+    <loc>https://www.shouchuan.com/category/sale</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/category/sale?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/category/sale?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 产品页面 / Product Pages -->
+  <url>
+    <loc>https://www.shouchuan.com/product/amethyst-bracelet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/product/amethyst-bracelet?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/product/amethyst-bracelet?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shouchuan.com/images/products/amethyst-bracelet.jpg</image:loc>
+      <image:title>Natural Amethyst Bracelet - Stone of Wisdom</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.shouchuan.com/product/jade-bracelet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/product/jade-bracelet?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/product/jade-bracelet?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shouchuan.com/images/products/jade-bracelet.jpg</image:loc>
+      <image:title>Grade A Jade Bracelet - Elegant</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://www.shouchuan.com/product/sandalwood-bracelet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/product/sandalwood-bracelet?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/product/sandalwood-bracelet?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.shouchuan.com/images/products/sandalwood-bracelet.jpg</image:loc>
+      <image:title>Indian Red Sandalwood - Seven Buddhist Treasures</image:title>
+    </image:image>
+  </url>
+  
+  <!-- 关于我们 / About Us -->
+  <url>
+    <loc>https://www.shouchuan.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/about?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/about?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- 联系我们 / Contact Us -->
+  <url>
+    <loc>https://www.shouchuan.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/contact?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/contact?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- 常见问题 / FAQ -->
+  <url>
+    <loc>https://www.shouchuan.com/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shouchuan.com/faq?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.shouchuan.com/faq?lang=zh"/>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>

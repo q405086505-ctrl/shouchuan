@@ -1,0 +1,50 @@
+/* ========================================
+   CUPSHE CLONE - Header Styles
+   ======================================== */
+
+/* Top Bar */
+.pc-topbar { background-color: #04040C; color: #FFFFFF; font-size: 13px; height: 40px; display: flex; justify-content: space-between; align-items: center; padding: 0 24px; position: relative; z-index: 1001; }
+.pc-topbar__container { flex: 1; display: flex; justify-content: center; }
+.pc-topbar__list { display: flex; align-items: center; gap: 24px; margin: 0; padding: 0; list-style: none; }
+.pc-topbar__item a { color: #FFFFFF; text-decoration: none; transition: opacity 0.2s; }
+.pc-topbar__item a:hover { opacity: 0.8; }
+.pc-topbar__switch { display: flex; align-items: center; }
+.international-select { cursor: pointer; position: relative; }
+.international__content { display: flex; align-items: center; gap: 8px; }
+.international__text { font-size: 12px; }
+.international__flag { width: 20px; height: 14px; object-fit: cover; }
+.international__arrow { display: flex; align-items: center; color: #FFFFFF; }
+.international__arrow svg { width: 16px; height: 16px; }
+
+/* Header */
+.pc-header { background: #FFFFFF; height: 70px; display: flex; align-items: center; justify-content: center; position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid #F2F2F2; }
+.pc-header__inner { width: 100%; max-width: 1440px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; }
+.pc-header__logo a { display: flex; align-items: center; }
+.pc-header__logo svg { height: 38px; width: auto; }
+.pc-header__actions { display: flex; align-items: center; gap: 24px; list-style: none; margin: 0; padding: 0; }
+.pc-header__actions > li { display: flex; align-items: center; cursor: pointer; position: relative; }
+.pc-header__actions > li svg { width: 22px; height: 22px; transition: opacity 0.2s; }
+.pc-header__actions > li:hover svg { opacity: 0.7; }
+.cart-count { position: absolute; top: -8px; right: -8px; background: #ED3D59; color: #fff; font-size: 10px; width: 18px; height: 18px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+
+/* User Dropdown */
+.pc-header__item--user { position: relative; }
+.pc-header__popover { position: absolute; top: 100%; right: 0; background: #FFFFFF; min-width: 200px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border-radius: 4px; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.2s; z-index: 1001; }
+.pc-header__item--user:hover .pc-header__popover { opacity: 1; visibility: visible; transform: translateY(0); }
+.pc-header__popover h4 { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+.pc-header__popover a { display: block; padding: 8px 0; font-size: 14px; color: #666; transition: color 0.2s; }
+.pc-header__popover a:hover { color: #04040C; }
+.pc-header__signin { background: #04040C; color: #FFFFFF !important; text-align: center; padding: 12px !important; border-radius: 4px; margin-bottom: 12px; }
+.pc-header__signin:hover { background: #333; color: #FFFFFF !important; }
+
+/* Navigation */
+.nav-wrap { background: #FFFFFF; border-bottom: 1px solid #F2F2F2; position: sticky; top: 70px; z-index: 999; }
+.nav-track { max-width: 1440px; margin: 0 auto; padding: 0 24px; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
+.nav-track::-webkit-scrollbar { display: none; }
+.nav-list { display: flex; justify-content: center; }
+#PC_NAV_LIST { display: flex; align-items: center; gap: 32px; list-style: none; margin: 0; padding: 16px 0; }
+.nav-item { white-space: nowrap; }
+.nav-item-link { font-size: 14px; font-weight: 400; color: #000000; text-decoration: none; transition: color 0.2s; position: relative; padding: 8px 0; }
+.nav-item-link:hover { color: #ED3D59; }
+.nav-item-link::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: #ED3D59; transition: width 0.2s; }
+.nav-item-link:hover::after { width: 100%; }

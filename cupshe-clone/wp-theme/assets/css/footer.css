@@ -1,0 +1,25 @@
+/* ========================================
+   CUPSHE CLONE - Footer Styles
+   ======================================== */
+
+.footer { background: #F8F8F8; padding: 60px 0 30px; }
+.footer__container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.footer__top { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; padding-bottom: 40px; border-bottom: 1px solid #E5E5E5; }
+.footer__col h4 { font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; color: #04040C; }
+.footer__col ul { list-style: none; padding: 0; margin: 0; }
+.footer__col ul li { margin-bottom: 12px; }
+.footer__col ul li a { font-size: 14px; color: #666; text-decoration: none; transition: color 0.2s; }
+.footer__col ul li a:hover { color: #04040C; }
+.footer__social { display: flex; gap: 16px; }
+.footer__social-link { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: #FFFFFF; border-radius: 50%; color: #04040C; transition: all 0.2s; }
+.footer__social-link:hover { background: #04040C; color: #FFFFFF; }
+.footer__bottom { padding-top: 30px; text-align: center; }
+.footer__copyright p { font-size: 12px; color: #999; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer__top { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+}
+@media (max-width: 480px) {
+  .footer__top { grid-template-columns: 1fr; }
+}
